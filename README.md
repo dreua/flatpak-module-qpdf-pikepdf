@@ -7,7 +7,7 @@ This is an attempt to share the effort of packaging qpdf and pikepdf for flatpak
 Add this repository to your flatpak manifest as a git submodule just like shared-modules:
 
 ```
-git submodule add git@github.com:dreua/flatpak-module-qpdf-pikepdf.git
+git submodule add ../../dreua/flatpak-module-qpdf-pikepdf.git
 ```
 
 
