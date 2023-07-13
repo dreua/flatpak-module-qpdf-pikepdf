@@ -10,6 +10,8 @@ Add this repository to your flatpak manifest as a git submodule just like shared
 git submodule add ../../dreua/flatpak-module-qpdf-pikepdf.git
 ```
 
+(The `../../` bit is a [nice solution](https://stackoverflow.com/a/44630028/4529404) to use either https or git/ssh, because the flathub builder will not work with the latter.)
+
 
 Use either `qpdf.yaml` or `pikepdf.yaml` in your recipe, for example:
 
