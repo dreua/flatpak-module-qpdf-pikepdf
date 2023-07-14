@@ -1,4 +1,4 @@
-name: Run script to regenereate python dependencies
+name: Run script to regenerate python dependencies
 on: 
   schedule:
     - cron: "36 16 22 * *"  # “At 16:36 on day-of-month 22.” 
