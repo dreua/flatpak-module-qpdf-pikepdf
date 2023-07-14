@@ -26,6 +26,9 @@ Don't forget to regularly update the submodule in order to get the latest versio
 
 - [PDF Arranger](https://github.com/flathub/com.github.jeromerobert.pdfarranger)
 
+
+*[Search for more](https://github.com/search?q=flatpak-module-qpdf-pikepdf&type=code)*
+
 ## Maintenance of Python dependencies
 
 Python dependencies are generated using flatpak-pip-generator as far as possible, see the
