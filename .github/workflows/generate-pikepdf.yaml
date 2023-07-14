@@ -1,7 +1,8 @@
 name: Run script to regenereate python dependencies
 on: 
   schedule:
-    - cron: "36 16 22 * *"
+    - cron: "36 16 22 * *"  # “At 16:36 on day-of-month 22.” 
+  workflow_dispatch:        # Manual trigger
 
 jobs:
   Run-generate-pikepdf:
