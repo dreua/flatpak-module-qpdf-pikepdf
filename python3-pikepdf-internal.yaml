@@ -1,4 +1,4 @@
-# Generated with flatpak-pip-generator --checker-data --yaml --runtime=org.gnome.Sdk//44 pybind11 pikepdf -o python3-pikepdf-internal
+# Generated with flatpak-pip-generator --checker-data --yaml pybind11 pikepdf -o python3-pikepdf-internal
 build-commands: []
 buildsystem: simple
 modules:
@@ -9,8 +9,8 @@ modules:
         --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/52/ed/68e989fdac8f352cb6d506fac111ba1e1b74c0ef3660fadeeeeb765bc03c/pybind11-2.10.4-py3-none-any.whl
-        sha256: ec9be0c45061c829648d7e8c98a7d041768b768c934acd15196e0f1943d9a818
+        url: https://files.pythonhosted.org/packages/6d/88/37445fde2baddf06e13753b722c4d82b60a9844784567a80a04e9b6c6c74/pybind11-2.11.0-py3-none-any.whl
+        sha256: 307443ea89b73ce88f68fa48687d160c036622a54bc2a25aae9d5ea792bef268
         x-checker-data:
           name: pybind11
           packagetype: bdist_wheel
