@@ -13,7 +13,13 @@ jobs:
         submodules: recursive
         persist-credentials: false # for create-or-update-pull-request-action
     - name: Install dependencies
-      run: pip3 install requirements-parser
+      run: |
+        pip3 install requirements-parser
+        apt-get update
+        apt-get install -y flatpak
+        flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+        flatpak install org.gnome.Sdk/x86_64/44 -y
+    - name: Install gnome sdk
     - name: Run update-python-modules.sh
       run: ./generate-pikepdf
 
