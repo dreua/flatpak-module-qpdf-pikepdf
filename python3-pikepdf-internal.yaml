@@ -9,8 +9,8 @@ modules:
         --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/6d/88/37445fde2baddf06e13753b722c4d82b60a9844784567a80a04e9b6c6c74/pybind11-2.11.0-py3-none-any.whl
-        sha256: 307443ea89b73ce88f68fa48687d160c036622a54bc2a25aae9d5ea792bef268
+        url: https://files.pythonhosted.org/packages/06/55/9f73c32dda93fa4f539fafa268f9504e83c489f460c380371d94296126cd/pybind11-2.11.1-py3-none-any.whl
+        sha256: 33cdd02a6453380dd71cc70357ce388ad1ee8d32bd0e38fc22b273d050aa29b3
         x-checker-data:
           name: pybind11
           packagetype: bdist_wheel
@@ -48,8 +48,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/3a/1a/991822625d12f8bd8f5f614c7e368e3ed5daf4b5402d82ca2eaf3502e738/pikepdf-8.0.0.tar.gz
-        sha256: 17264250e73910b0c9a10e6097624c8714ac7136c00e799ade0361877b3ee3fa
+        url: https://files.pythonhosted.org/packages/d0/a3/b4951d002af6fc1fc6a938ce48f82c0561f18bbcb4fca64910b01c801bf2/pikepdf-8.2.3.tar.gz
+        sha256: 77dc52bc0064af10abce890bc0e2496d57ba766e0946a5ac8701a853b00f3403
         x-checker-data:
           name: pikepdf
           type: pypi
