@@ -1,5 +1,2 @@
 #!/bin/bash
-echo "Checking qpdf.yaml"
-flatpak run --filesystem=$(pwd) org.flathub.flatpak-external-data-checker ./qpdf.yaml "$@"
-echo "Checking python3-pikepdf.yaml"
-flatpak run --filesystem=$(pwd) org.flathub.flatpak-external-data-checker ./python3-pikepdf-internal.yaml "$@"
+flatpak run --filesystem=$(pwd) org.flathub.flatpak-external-data-checker pikepdf.yaml "$@"
