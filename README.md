@@ -20,7 +20,9 @@ modules:
   - flatpak-module-qpdf-pikepdf/pikepdf.yaml
 ```
 
-Don't forget to regularly update the submodule in order to get the latest versions.
+Don't forget to regularly update the submodule in order to get the latest versions or 
+[configure dependabot](https://github.com/flathub/com.github.jeromerobert.pdfarranger/blob/master/.github/dependabot.yml) 
+in your repository to create a PR whenever an update is avialable.
 
 ## Known users
 
