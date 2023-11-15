@@ -22,17 +22,17 @@ modules:
         --prefix=${FLATPAK_DEST} "pikepdf" --no-build-isolation
     sources:
       - type: file
+        url: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl
+        sha256: 6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c
+        x-checker-data:
+          name: Deprecated
+          packagetype: bdist_wheel
+          type: pypi
+      - type: file
         url: https://files.pythonhosted.org/packages/80/d7/c4b258c9098b469c4a4e77b0a99b5f4fd21e359c2e486c977d231f52fc71/Pillow-10.1.0.tar.gz
         sha256: e6bf8de6c36ed96c86ea3b6e1d5273c53f46ef518a062464cd7ef5dd2cf92e38
         x-checker-data:
           name: Pillow
-          type: pypi
-      - type: file
-        url: https://files.pythonhosted.org/packages/02/c3/253a89ee03fc9b9682f1541728eb66db7db22148cd94f89ab22528cd1e1b/deprecation-2.1.0-py2.py3-none-any.whl
-        sha256: a10811591210e1fb0e768a8c25517cabeabcba6f0bf96564f8ff45189f90b14a
-        x-checker-data:
-          name: deprecation
-          packagetype: bdist_wheel
           type: pypi
       - type: file
         url: https://files.pythonhosted.org/packages/30/39/7305428d1c4f28282a4f5bdbef24e0f905d351f34cf351ceb131f5cddf78/lxml-4.9.3.tar.gz
@@ -52,5 +52,11 @@ modules:
         sha256: 69d69a93d07027e351996ef8232f26bba762d415206414e0ae3814be0aee0f7a
         x-checker-data:
           name: pikepdf
+          type: pypi
+      - type: file
+        url: https://files.pythonhosted.org/packages/95/4c/063a912e20bcef7124e0df97282a8af3ff3e4b603ce84c481d6d7346be0a/wrapt-1.16.0.tar.gz
+        sha256: 5f370f952971e7d17c7d1ead40e49f32345a7f7a5373571ef44d800d06b1899d
+        x-checker-data:
+          name: wrapt
           type: pypi
 name: python3-pikepdf-internal
