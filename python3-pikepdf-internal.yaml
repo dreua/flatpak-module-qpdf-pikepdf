@@ -35,8 +35,8 @@ modules:
           name: Pillow
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/28/0b/1040061fa941b0b2cac73dd5d0e05cddd3d59f1bffbaab8049e2f5ee98a9/lxml-5.0.0.tar.gz
-        sha256: 9165c82bcccf0249feff82cd1fba202e4ce26c25dc69040a0d2c2d0e49cbeba3
+        url: https://files.pythonhosted.org/packages/80/2c/076fafd979728858829fb9ce2e13fa6367b6be9acc4da0cff6367aa6a1ce/lxml-5.0.0.zip
+        sha256: 2219cbf790e701acf9a21a31ead75f983e73daf0eceb9da6990212e4d20ebefe
         x-checker-data:
           name: lxml
           type: pypi
@@ -48,8 +48,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/1f/23/dfb294011db6263a9a7a254377e78e5270cfc86afd1d4b077a66894b6283/pikepdf-8.11.0.tar.gz
-        sha256: 1bd8d4f41ebeaddd4290eff9a6a3d510448f0603f839021a13eab0682ab39451
+        url: https://files.pythonhosted.org/packages/8d/8f/a17aae578e38d5991330bbb1e316910cd34d9ad3cf01097f56b27af46238/pikepdf-8.11.1.tar.gz
+        sha256: 1e0e3a1ddeeb306c4f18d80cde1ce9c717154bfe876b664fd3f16866720bee87
         x-checker-data:
           name: pikepdf
           type: pypi
