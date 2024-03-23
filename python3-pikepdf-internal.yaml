@@ -35,15 +35,15 @@ modules:
           name: lxml
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/ec/1a/610693ac4ee14fcdf2d9bf3c493370e4f2ef7ae2e19217d7a237ff42367d/packaging-23.2-py3-none-any.whl
-        sha256: 8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7
+        url: https://files.pythonhosted.org/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl
+        sha256: 2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5
         x-checker-data:
           name: packaging
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/f4/8a/23f62747cf7ea02cad56d82ca881c3aeba8a2beaf85c209017a18ab6865f/pikepdf-8.13.0.tar.gz
-        sha256: 3bbd79c7cd6630361d83e75132aeaf3a64ceb837f82870bafdc210a31e3d917a
+        url: https://files.pythonhosted.org/packages/c3/bb/3a5bfbac4749f466f7508687233c6b569d9a80f15b516bf46f506425e4a6/pikepdf-8.14.0.tar.gz
+        sha256: 70e8c6cdb4ecefe0f01efdb524837fabe4104c10a4a17dc33cb9cb5def0f45eb
         x-checker-data:
           name: pikepdf
           type: pypi
