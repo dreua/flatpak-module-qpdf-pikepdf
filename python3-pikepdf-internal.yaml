@@ -9,8 +9,8 @@ modules:
         --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/06/55/9f73c32dda93fa4f539fafa268f9504e83c489f460c380371d94296126cd/pybind11-2.11.1-py3-none-any.whl
-        sha256: 33cdd02a6453380dd71cc70357ce388ad1ee8d32bd0e38fc22b273d050aa29b3
+        url: https://files.pythonhosted.org/packages/26/55/e776489172f576b782e616f58273e1f3de56a91004b0d20504169dd345af/pybind11-2.12.0-py3-none-any.whl
+        sha256: df8d60b94f9e714d81013db233393d430ebf9f3551642b82291cf1b14d1afdbd
         x-checker-data:
           name: pybind11
           packagetype: bdist_wheel
@@ -29,27 +29,27 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/2b/b4/bbccb250adbee490553b6a52712c46c20ea1ba533a643f1424b27ffc6845/lxml-5.1.0.tar.gz
-        sha256: 3eea6ed6e6c918e468e693c41ef07f3c3acc310b70ddd9cc72d9ef84bc9564ca
+        url: https://files.pythonhosted.org/packages/ea/e2/3834472e7f18801e67a3cd6f3c203a5456d6f7f903cfb9a990e62098a2f3/lxml-5.2.1.tar.gz
+        sha256: 3f7765e69bbce0906a7c74d5fe46d2c7a7596147318dbc08e4a2431f3060e306
         x-checker-data:
           name: lxml
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/ec/1a/610693ac4ee14fcdf2d9bf3c493370e4f2ef7ae2e19217d7a237ff42367d/packaging-23.2-py3-none-any.whl
-        sha256: 8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7
+        url: https://files.pythonhosted.org/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl
+        sha256: 2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5
         x-checker-data:
           name: packaging
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/f4/8a/23f62747cf7ea02cad56d82ca881c3aeba8a2beaf85c209017a18ab6865f/pikepdf-8.13.0.tar.gz
-        sha256: 3bbd79c7cd6630361d83e75132aeaf3a64ceb837f82870bafdc210a31e3d917a
+        url: https://files.pythonhosted.org/packages/7c/47/87a19cc2af6e82c00d79e9bcd75d9ce3a964943386f44e441d76d086c674/pikepdf-8.15.1.tar.gz
+        sha256: 653aceedb2b3a4cdb579a55aaf78632b434b7cd53e2557b2bc8c8590bfe1d92b
         x-checker-data:
           name: pikepdf
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/f8/3e/32cbd0129a28686621434cbf17bb64bf1458bfb838f1f668262fefce145c/pillow-10.2.0.tar.gz
-        sha256: e87f0b2c78157e12d7686b27d63c070fd65d994e8ddae6f328e0dcf4a0cd007e
+        url: https://files.pythonhosted.org/packages/ef/43/c50c17c5f7d438e836c169e343695534c38c77f60e7c90389bd77981bc21/pillow-10.3.0.tar.gz
+        sha256: 9d2455fbf44c914840c793e89aa82d0e1763a14253a000743719ae5946814b2d
         x-checker-data:
           name: pillow
           type: pypi
