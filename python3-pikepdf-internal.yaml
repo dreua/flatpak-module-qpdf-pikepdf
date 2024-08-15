@@ -9,8 +9,8 @@ modules:
         --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/84/fb/1a249de406daf2b4ebd2d714b739e8519034617daec085e3833c1a3ed57c/pybind11-2.13.1-py3-none-any.whl
-        sha256: 97881536abe0cd4260a9ccc5bf6d1cf3113318f08af1feb82d4b9f95e93f0aa4
+        url: https://files.pythonhosted.org/packages/d9/0d/639dbbe0122b9359185877da57ad421a2cac9ab3a5c766833963354c4331/pybind11-2.13.4-py3-none-any.whl
+        sha256: 5932d63d570b3a12ece2f6678adb3846cc1c229dc1f8518a46d5b540f240f959
         x-checker-data:
           name: pybind11
           packagetype: bdist_wheel
