@@ -6,8 +6,7 @@ modules:
     buildsystem: simple
     build-commands:
       # Temporary addition
-      - rm -r /var/lib/buildbot-master/master/workers/MasterWorker3/Builds/build/flatpak-module-qpdf-pikepdf/flatpak-builder-tools
-      - rm -r /var/lib/buildbot-master/master/workers/MasterWorker5/Builds/build/flatpak-module-qpdf-pikepdf/flatpak-builder-tools
+      - rm -r /var/lib/buildbot-master/master/workers/MasterWorker3/Builds/build/flatpak-module-qpdf-pikepdf/flatpak-builder-tools /var/lib/buildbot-master/master/workers/MasterWorker5/Builds/build/flatpak-module-qpdf-pikepdf/flatpak-builder-tools
       - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
         --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
     sources:
