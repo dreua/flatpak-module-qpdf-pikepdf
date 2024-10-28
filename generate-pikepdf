@@ -8,7 +8,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
     cd "${SCRIPT_DIR}"
 
     PIP_GENERATOR="flatpak-builder-tools/pip/flatpak-pip-generator --checker-data --yaml"
-    # Maybe there are more accurate results with the additional flag: --runtime=org.gnome.Sdk//44
+    # Maybe there are more accurate results with the additional flag: --runtime=org.gnome.Sdk//<version>
     # Currently it makes no difference and the GHA workflow becomes unneccessarily complex with flatpaks
 
     # Workaround for pip's keyring bug
