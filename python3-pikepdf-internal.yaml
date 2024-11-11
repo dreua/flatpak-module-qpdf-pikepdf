@@ -22,6 +22,13 @@ modules:
         --prefix=${FLATPAK_DEST} "pikepdf" --no-build-isolation
     sources:
       - type: file
+        url: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl
+        sha256: 6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c
+        x-checker-data:
+          name: deprecated
+          packagetype: bdist_wheel
+          type: pypi
+      - type: file
         url: https://files.pythonhosted.org/packages/e7/6b/20c3a4b24751377aaa6307eb230b66701024012c29dd374999cc92983269/lxml-5.3.0.tar.gz
         sha256: 4e109ca30d1edec1ac60cdbe341905dc3b8f55b16855e03a54aaf59e51ec8c6f
         x-checker-data:
