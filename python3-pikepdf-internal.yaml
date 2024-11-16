@@ -22,8 +22,8 @@ modules:
         --prefix=${FLATPAK_DEST} "pikepdf" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl
-        sha256: 6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c
+        url: https://files.pythonhosted.org/packages/1d/8f/c7f227eb42cfeaddce3eb0c96c60cbca37797fa7b34f8e1aeadf6c5c0983/Deprecated-1.2.15-py2.py3-none-any.whl
+        sha256: 353bc4a8ac4bfc96800ddab349d89c25dec1079f65fd53acdcc1e0b975b21320
         x-checker-data:
           name: deprecated
           packagetype: bdist_wheel
