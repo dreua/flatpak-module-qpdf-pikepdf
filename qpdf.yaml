@@ -2,8 +2,8 @@ name: qpdf
 buildsystem: cmake-ninja
 builddir: true
 sources:
-  - url: https://github.com/qpdf/qpdf/releases/download/v11.9.1/qpdf-11.9.1.tar.gz
-    sha256: 2ba4d248f9567a27c146b9772ef5dc93bd9622317978455ffe91b259340d13d1
+  - url: https://github.com/qpdf/qpdf/releases/download/v11.10.0/qpdf-11.10.0.tar.gz
+    sha256: 6295349aa18049f5f970bf0717aa76904ce326b6b14ce230cf96895f0c679fe3
     type: archive
     x-checker-data:
       type: anitya
