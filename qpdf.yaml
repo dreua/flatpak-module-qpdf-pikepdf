@@ -10,3 +10,6 @@ sources:
       project-id: 5542
       stable-only: true
       url-template: https://github.com/qpdf/qpdf/releases/download/v$version/qpdf-$version.tar.gz
+      changelog-url-template: https://qpdf.readthedocs.io/en/stable/release-notes.html
+      # changelog-url-template: https://github.com/qpdf/qpdf/releases/tag/v$version
+
