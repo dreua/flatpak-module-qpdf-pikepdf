@@ -12,6 +12,7 @@ modules:
         url: https://files.pythonhosted.org/packages/13/2f/0f24b288e2ce56f51c920137620b4434a38fd80583dbbe24fc2a1656c388/pybind11-2.13.6-py3-none-any.whl
         sha256: 237c41e29157b962835d356b370ededd57594a26d5894a795960f0047cb5caf5
         x-checker-data:
+          changelog-url-template: https://pybind11.readthedocs.io/en/latest/changelog.html
           name: pybind11
           packagetype: bdist_wheel
           type: pypi
@@ -45,18 +46,21 @@ modules:
         url: https://files.pythonhosted.org/packages/4d/26/c74b0a08bdb743983e4ab65d7294a4e0e0d33fc03acb9802cd9a719414b8/pikepdf-9.4.0.tar.gz
         sha256: 1f1f53368c8a25f8c5e96dc19e57c0ad3d8bd7f259ca730ac5b0bd9d21747d5a
         x-checker-data:
+          changelog-url-template: https://pikepdf.readthedocs.io/en/latest/releasenotes/index.html
           name: pikepdf
           type: pypi
       - type: file
         url: https://files.pythonhosted.org/packages/a5/26/0d95c04c868f6bdb0c447e3ee2de5564411845e36a858cfd63766bc7b563/pillow-11.0.0.tar.gz
         sha256: 72bacbaf24ac003fea9bff9837d1eedb6088758d41e100c1552930151f677739
         x-checker-data:
+          changelog-url-template: https://github.com/python-pillow/Pillow/releases
           name: pillow
           type: pypi
       - type: file
         url: https://files.pythonhosted.org/packages/95/4c/063a912e20bcef7124e0df97282a8af3ff3e4b603ce84c481d6d7346be0a/wrapt-1.16.0.tar.gz
         sha256: 5f370f952971e7d17c7d1ead40e49f32345a7f7a5373571ef44d800d06b1899d
         x-checker-data:
+          changelog-url-template: https://wrapt.readthedocs.io/en/latest/changes.html
           name: wrapt
           type: pypi
 name: python3-pikepdf-internal
