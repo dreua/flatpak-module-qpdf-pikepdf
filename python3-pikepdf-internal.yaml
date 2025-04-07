@@ -29,8 +29,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/ef/f6/c15ca8e5646e937c148e147244817672cf920b56ac0bf2cc1512ae674be8/lxml-5.3.1.tar.gz
-        sha256: 106b7b5d2977b339f1e97efe2778e2ab20e99994cbb0ec5e55771ed0795920c8
+        url: https://files.pythonhosted.org/packages/80/61/d3dc048cd6c7be6fe45b80cedcbdd4326ba4d550375f266d9f4246d0f4bc/lxml-5.3.2.tar.gz
+        sha256: 773947d0ed809ddad824b7b14467e1a481b8976e87278ac4a730c2f7c7fcddc1
         x-checker-data:
           name: lxml
           type: pypi
@@ -42,8 +42,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/1c/2c/0707248e2bdfe148c53c43ea1a7fce730eab9ae8bbe65470720f5a7ddd25/pikepdf-9.5.2.tar.gz
-        sha256: 190b3bb4891a7a154315f505d7dcd557ef21e8130cea8b78eb9646f8d67072ed
+        url: https://files.pythonhosted.org/packages/c2/dc/bdc7225e2d105bfbcbf082b875b35aab67b7cddcd3adb9a51873560c6f62/pikepdf-9.6.0.tar.gz
+        sha256: ed970b669248c566772865935cd99f7e316bc63dc7f7cb7bc2c821d4a10af16a
         x-checker-data:
           name: pikepdf
           type: pypi
