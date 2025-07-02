@@ -27,6 +27,7 @@ in your repository to create a PR whenever an update is avialable.
 ## Known users
 
 - [PDF Arranger](https://github.com/flathub/com.github.jeromerobert.pdfarranger)
+- [PDF Stitcher](https://github.com/flathub/org.pdfstitcher.pdfstitcher)
 
 
 *[Search for more](https://github.com/search?q=flatpak-module-qpdf-pikepdf&type=code)*
