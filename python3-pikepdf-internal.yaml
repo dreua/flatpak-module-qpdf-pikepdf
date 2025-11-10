@@ -42,8 +42,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/d3/1c/c8c8c53d5f2b1e3e9c9a12ff3442aafd5b368ffb167b03c8328da608d72e/pikepdf-10.0.0.tar.gz
-        sha256: f1396843aae147328bf221b778725636a1cf33080a46a583b1d18fbb0ca2bcd3
+        url: https://files.pythonhosted.org/packages/fe/1b/f8f7659e3ca388b064ebdb1ad85477c6bd8ec2ddae55b2ca5372348f8770/pikepdf-10.0.1.tar.gz
+        sha256: 0a6a07f113a8bcc20c151971d110083556c02764912cd095ef952da7b6850753
         x-checker-data:
           name: pikepdf
           type: pypi
