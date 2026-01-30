@@ -35,8 +35,8 @@ modules:
           name: lxml
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/6e/e9/a1462d6160805ca80c8f4aafc941aaf410a92d0fcc683706e94f499c2fac/pikepdf-10.2.0.tar.gz
-        sha256: 0f398b0daeb2ffd2358f75c06f1dd47b9ba76f1a77dfe938cccf7080c58227d7
+        url: https://files.pythonhosted.org/packages/b6/ba/7635a5f4259a2a91ed4f094e358dec3068ecedc891d70b8e76a02904ca0c/pikepdf-10.3.0.tar.gz
+        sha256: e2a64a5f1ebf8c411193126b9eeff7faf5739a40bce7441e579531422469fbb1
         x-checker-data:
           name: pikepdf
           type: pypi
