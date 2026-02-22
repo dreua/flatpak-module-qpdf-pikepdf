@@ -9,8 +9,8 @@ modules:
     --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
   sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/cd/8a/37362fc2b949d5f733a8b0f2ff51ba423914cabefe69f1d1b6aab710f5fe/pybind11-3.0.1-py3-none-any.whl
-    sha256: aa8f0aa6e0a94d3b64adfc38f560f33f15e589be2175e103c0a33c6bce55ee89
+    url: https://files.pythonhosted.org/packages/88/c5/e98d9c51f3d5300d5e40ad9037dd6b3b60736fd02ab68dcc98c96be7592d/pybind11-3.0.2-py3-none-any.whl
+    sha256: f8a6500548919cc33bcd220d5f984688326f574fa97f1107f2f4fdb4c6fb019f
     x-checker-data:
       name: pybind11
       packagetype: bdist_wheel
@@ -35,20 +35,20 @@ modules:
       name: lxml
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/6e/e9/a1462d6160805ca80c8f4aafc941aaf410a92d0fcc683706e94f499c2fac/pikepdf-10.2.0.tar.gz
-    sha256: 0f398b0daeb2ffd2358f75c06f1dd47b9ba76f1a77dfe938cccf7080c58227d7
+    url: https://files.pythonhosted.org/packages/b6/ba/7635a5f4259a2a91ed4f094e358dec3068ecedc891d70b8e76a02904ca0c/pikepdf-10.3.0.tar.gz
+    sha256: e2a64a5f1ebf8c411193126b9eeff7faf5739a40bce7441e579531422469fbb1
     x-checker-data:
       name: pikepdf
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/d0/02/d52c733a2452ef1ffcc123b68e6606d07276b0e358db70eabad7e40042b7/pillow-12.1.0.tar.gz
-    sha256: 5c5ae0a06e9ea030ab786b0251b32c7e4ce10e58d983c0d5c56029455180b5b9
+    url: https://files.pythonhosted.org/packages/1f/42/5c74462b4fd957fcd7b13b04fb3205ff8349236ea74c7c375766d6c82288/pillow-12.1.1.tar.gz
+    sha256: 9ad8fa5937ab05218e2b6a4cff30295ad35afd2f83ac592e68c0d871bb0fdbc4
     x-checker-data:
       name: pillow
       type: pypi
   - type: file
-    url: https://files.pythonhosted.org/packages/49/2a/6de8a50cb435b7f42c46126cf1a54b2aab81784e74c8595c8e025e8f36d3/wrapt-2.0.1.tar.gz
-    sha256: 9c9c635e78497cacb81e84f8b11b23e0aacac7a136e73b8e5b2109a1d9fc468f
+    url: https://files.pythonhosted.org/packages/f7/37/ae31f40bec90de2f88d9597d0b5281e23ffe85b893a47ca5d9c05c63a4f6/wrapt-2.1.1.tar.gz
+    sha256: 5fdcb09bf6db023d88f312bd0767594b414655d58090fc1c46b3414415f67fac
     x-checker-data:
       name: wrapt
       type: pypi
