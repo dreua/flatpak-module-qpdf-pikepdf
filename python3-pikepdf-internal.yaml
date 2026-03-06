@@ -47,8 +47,8 @@ modules:
           name: pillow
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/f7/37/ae31f40bec90de2f88d9597d0b5281e23ffe85b893a47ca5d9c05c63a4f6/wrapt-2.1.1.tar.gz
-        sha256: 5fdcb09bf6db023d88f312bd0767594b414655d58090fc1c46b3414415f67fac
+        url: https://files.pythonhosted.org/packages/2e/64/925f213fdcbb9baeb1530449ac71a4d57fc361c053d06bf78d0c5c7cd80c/wrapt-2.1.2.tar.gz
+        sha256: 3996a67eecc2c68fd47b4e3c564405a5777367adfd9b8abb58387b63ee83b21e
         x-checker-data:
           name: wrapt
           type: pypi
