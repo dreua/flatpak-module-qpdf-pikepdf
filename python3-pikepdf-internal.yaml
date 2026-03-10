@@ -4,7 +4,7 @@ buildsystem: simple
 modules:
   - name: python3-pybind11
     buildsystem: simple
-    cleanup: ["*"]
+    cleanup: ['*']
     build-commands:
       - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
         --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
@@ -36,8 +36,8 @@ modules:
           name: lxml
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/b6/ba/7635a5f4259a2a91ed4f094e358dec3068ecedc891d70b8e76a02904ca0c/pikepdf-10.3.0.tar.gz
-        sha256: e2a64a5f1ebf8c411193126b9eeff7faf5739a40bce7441e579531422469fbb1
+        url: https://files.pythonhosted.org/packages/cd/1a/68fabb9ec71150029d5be910b789e5383ed281d462f8ead89d5b522b53d1/pikepdf-10.5.0.tar.gz
+        sha256: 62c66fb15174bf7c13029ae67b64e04f7c5c2f9af1bd9c9aecf08f808a02acab
         x-checker-data:
           name: pikepdf
           type: pypi
@@ -48,8 +48,8 @@ modules:
           name: pillow
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/f7/37/ae31f40bec90de2f88d9597d0b5281e23ffe85b893a47ca5d9c05c63a4f6/wrapt-2.1.1.tar.gz
-        sha256: 5fdcb09bf6db023d88f312bd0767594b414655d58090fc1c46b3414415f67fac
+        url: https://files.pythonhosted.org/packages/2e/64/925f213fdcbb9baeb1530449ac71a4d57fc361c053d06bf78d0c5c7cd80c/wrapt-2.1.2.tar.gz
+        sha256: 3996a67eecc2c68fd47b4e3c564405a5777367adfd9b8abb58387b63ee83b21e
         x-checker-data:
           name: wrapt
           type: pypi
