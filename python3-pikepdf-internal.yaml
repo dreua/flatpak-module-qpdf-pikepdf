@@ -30,8 +30,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/43/42/149c7747977db9d68faee960c1a3391eb25e94d4bb677f8e2df8328e4098/lxml-6.0.3.tar.gz
-        sha256: a1664c5139755df44cab3834f4400b331b02205d62d3fdcb1554f63439bf3372
+        url: https://files.pythonhosted.org/packages/ce/08/1217ca4043f55c3c92993b283a7dbfa456a2058d8b57bbb416cc96b6efff/lxml-6.0.4.tar.gz
+        sha256: 4137516be2a90775f99d8ef80ec0283f8d78b5d8bd4630ff20163b72e7e9abf2
         x-checker-data:
           name: lxml
           type: pypi
