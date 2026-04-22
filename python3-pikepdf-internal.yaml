@@ -2,55 +2,54 @@
 build-commands: []
 buildsystem: simple
 modules:
-  - name: python3-pybind11
-    buildsystem: simple
-    cleanup: ['*']
-    build-commands:
-      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-        --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
-    sources:
-      - type: file
-        url: https://files.pythonhosted.org/packages/b3/06/c3a23c9a0263b136c519f033a58d4641e73065fefc7754e9667ec206d992/pybind11-3.0.4-py3-none-any.whl
-        sha256: 961720ee652da51d531b7b2451a6bd2bc042b0106e6d9baa48ecb7d58034ce63
-        x-checker-data:
-          name: pybind11
-          packagetype: bdist_wheel
-          type: pypi
-  - name: python3-pikepdf
-    buildsystem: simple
-    build-commands:
-      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-        --prefix=${FLATPAK_DEST} "pikepdf" --no-build-isolation
-    sources:
-      - type: file
-        url: https://files.pythonhosted.org/packages/84/d0/205d54408c08b13550c733c4b85429e7ead111c7f0014309637425520a9a/deprecated-1.3.1-py2.py3-none-any.whl
-        sha256: 597bfef186b6f60181535a29fbe44865ce137a5079f295b479886c82729d5f3f
-        x-checker-data:
-          name: deprecated
-          packagetype: bdist_wheel
-          type: pypi
-      - type: file
-        url: https://files.pythonhosted.org/packages/28/30/9abc9e34c657c33834eaf6cd02124c61bdf5944d802aa48e69be8da3585d/lxml-6.1.0.tar.gz
-        sha256: bfd57d8008c4965709a919c3e9a98f76c2c7cb319086b3d26858250620023b13
-        x-checker-data:
-          name: lxml
-          type: pypi
-      - type: file
-        url: https://files.pythonhosted.org/packages/2c/66/32a45480d84cb239c7ad31209c956496fe5b20f6fb163d794db4c79f840c/pikepdf-10.5.1.tar.gz
-        sha256: ffa6c7d0b77deb3af9735e0b0cae177c897431e10d342bb171b62e5527a622b7
-        x-checker-data:
-          name: pikepdf
-          type: pypi
-      - type: file
-        url: https://files.pythonhosted.org/packages/8c/21/c2bcdd5906101a30244eaffc1b6e6ce71a31bd0742a01eb89e660ebfac2d/pillow-12.2.0.tar.gz
-        sha256: a830b1a40919539d07806aa58e1b114df53ddd43213d9c8b75847eee6c0182b5
-        x-checker-data:
-          name: pillow
-          type: pypi
-      - type: file
-        url: https://files.pythonhosted.org/packages/2e/64/925f213fdcbb9baeb1530449ac71a4d57fc361c053d06bf78d0c5c7cd80c/wrapt-2.1.2.tar.gz
-        sha256: 3996a67eecc2c68fd47b4e3c564405a5777367adfd9b8abb58387b63ee83b21e
-        x-checker-data:
-          name: wrapt
-          type: pypi
+- name: python3-pybind11
+  buildsystem: simple
+  build-commands:
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+    --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
+  sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/b3/06/c3a23c9a0263b136c519f033a58d4641e73065fefc7754e9667ec206d992/pybind11-3.0.4-py3-none-any.whl
+    sha256: 961720ee652da51d531b7b2451a6bd2bc042b0106e6d9baa48ecb7d58034ce63
+    x-checker-data:
+      name: pybind11
+      packagetype: bdist_wheel
+      type: pypi
+- name: python3-pikepdf
+  buildsystem: simple
+  build-commands:
+  - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+    --prefix=${FLATPAK_DEST} "pikepdf" --no-build-isolation
+  sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/84/d0/205d54408c08b13550c733c4b85429e7ead111c7f0014309637425520a9a/deprecated-1.3.1-py2.py3-none-any.whl
+    sha256: 597bfef186b6f60181535a29fbe44865ce137a5079f295b479886c82729d5f3f
+    x-checker-data:
+      name: deprecated
+      packagetype: bdist_wheel
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/28/30/9abc9e34c657c33834eaf6cd02124c61bdf5944d802aa48e69be8da3585d/lxml-6.1.0.tar.gz
+    sha256: bfd57d8008c4965709a919c3e9a98f76c2c7cb319086b3d26858250620023b13
+    x-checker-data:
+      name: lxml
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/2c/66/32a45480d84cb239c7ad31209c956496fe5b20f6fb163d794db4c79f840c/pikepdf-10.5.1.tar.gz
+    sha256: ffa6c7d0b77deb3af9735e0b0cae177c897431e10d342bb171b62e5527a622b7
+    x-checker-data:
+      name: pikepdf
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/8c/21/c2bcdd5906101a30244eaffc1b6e6ce71a31bd0742a01eb89e660ebfac2d/pillow-12.2.0.tar.gz
+    sha256: a830b1a40919539d07806aa58e1b114df53ddd43213d9c8b75847eee6c0182b5
+    x-checker-data:
+      name: pillow
+      type: pypi
+  - type: file
+    url: https://files.pythonhosted.org/packages/2e/64/925f213fdcbb9baeb1530449ac71a4d57fc361c053d06bf78d0c5c7cd80c/wrapt-2.1.2.tar.gz
+    sha256: 3996a67eecc2c68fd47b4e3c564405a5777367adfd9b8abb58387b63ee83b21e
+    x-checker-data:
+      name: wrapt
+      type: pypi
 name: python3-pikepdf-internal
