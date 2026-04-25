@@ -1,9 +1,9 @@
-# Generated with flatpak-pip-generator --checker-data --yaml lxml
+# Generated with flatpak-pip-generator --checker-data --yaml --ignore-installed=lxml lxml
 name: python3-lxml
 buildsystem: simple
 build-commands:
 - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-  --prefix=${FLATPAK_DEST} "lxml" --no-build-isolation --ignore-installed
+  --prefix=${FLATPAK_DEST} "lxml" --ignore-installed --no-build-isolation
 sources:
 - type: file
   url: https://files.pythonhosted.org/packages/28/30/9abc9e34c657c33834eaf6cd02124c61bdf5944d802aa48e69be8da3585d/lxml-6.1.0.tar.gz

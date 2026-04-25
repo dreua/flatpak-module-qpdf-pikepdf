@@ -14,10 +14,12 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
     # Workaround for pip's keyring bug
     export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 
-    # lxml must be force installed as it is in the GMOME 41 sdk but not the platform
-    $PIP_GENERATOR lxml
-    sed -e 's/--no-build-isolation/--no-build-isolation --ignore-installed/g' -i python3-lxml.yaml
+    # lxml must be force installed as it is in the GMOME sdk but not the platform since 41
+    # Platform issue 'wontfix': https://gitlab.gnome.org/GNOME/gnome-build-meta/-/issues/380
+    $PIP_GENERATOR --ignore-installed=lxml lxml
 
     $PIP_GENERATOR pybind11 pikepdf -o python3-pikepdf-internal
+
+    # Apply cleanup which got overwritten
     git apply pybind11-cleanup.patch
 )
