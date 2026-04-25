@@ -19,4 +19,5 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
     sed -e 's/--no-build-isolation/--no-build-isolation --ignore-installed/g' -i python3-lxml.yaml
 
     $PIP_GENERATOR pybind11 pikepdf -o python3-pikepdf-internal
+    git apply pybind11-cleanup.patch
 )
