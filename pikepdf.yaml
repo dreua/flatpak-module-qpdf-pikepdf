@@ -2,4 +2,5 @@ name: pikepdf
 modules:
   - qpdf.yaml
   - python3-lxml.yaml
+  - python3-pybind11.yaml
   - python3-pikepdf-internal.yaml

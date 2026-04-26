@@ -18,8 +18,6 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
     # Platform issue 'wontfix': https://gitlab.gnome.org/GNOME/gnome-build-meta/-/issues/380
     $PIP_GENERATOR --ignore-installed=lxml lxml
 
-    $PIP_GENERATOR pybind11 pikepdf -o python3-pikepdf-internal
-
-    # Apply cleanup which got overwritten
-    git apply pybind11-cleanup.patch
+    $PIP_GENERATOR --cleanup=all pybind11
+    $PIP_GENERATOR pikepdf -o python3-pikepdf-internal
 )
