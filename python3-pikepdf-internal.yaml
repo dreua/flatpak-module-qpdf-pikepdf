@@ -19,8 +19,8 @@ sources:
     name: lxml
     type: pypi
 - type: file
-  url: https://files.pythonhosted.org/packages/2c/66/32a45480d84cb239c7ad31209c956496fe5b20f6fb163d794db4c79f840c/pikepdf-10.5.1.tar.gz
-  sha256: ffa6c7d0b77deb3af9735e0b0cae177c897431e10d342bb171b62e5527a622b7
+  url: https://files.pythonhosted.org/packages/cf/20/06636c3c7351d7292308e848700cd26a2092233093d4cabe770aaee73319/pikepdf-10.6.0.tar.gz
+  sha256: 172611c32ab0a6097cfbccb397847b8e84d3f7bc7d32d5fc2f50e7e61f164725
   x-checker-data:
     name: pikepdf
     type: pypi
