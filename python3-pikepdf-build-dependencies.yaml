@@ -1,0 +1,57 @@
+# Generated with flatpak-pip-generator --checker-data --yaml --cleanup=all nanobind scikit-build-core pybind11 -o python3-pikepdf-build-dependencies
+name: python3-pikepdf-build-dependencies
+buildsystem: simple
+build-commands: []
+modules:
+  - name: python3-nanobind
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "nanobind" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/5a/bf/1a54e3573736f3ad15fc599c5dde007937234652a1a7efd62573b4ce3a7e/nanobind-2.12.0-py3-none-any.whl
+        sha256: a10d3d88e691dcdf22696f9acd893fda3c5a05635763aea238829d274fcad480
+        x-checker-data:
+          type: pypi
+          name: nanobind
+          packagetype: bdist_wheel
+    cleanup:
+      - '*'
+  - name: python3-scikit-build-core
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "scikit-build-core" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/f1/d9/7fb5aa316bc299258e68c73ba3bddbc499654a07f151cba08f6153988714/pathspec-1.1.1-py3-none-any.whl
+        sha256: a00ce642f577bf7f473932318056212bc4f8bfdf53128c78bbd5af0b9b20b189
+        x-checker-data:
+          type: pypi
+          name: pathspec
+          packagetype: bdist_wheel
+      - type: file
+        url: https://files.pythonhosted.org/packages/07/49/b2f0fbe3165d55c02e7f9eec6a10685d518af0ef6e919ff2f589c2d15c85/scikit_build_core-0.12.2-py3-none-any.whl
+        sha256: 6ea4730da400f9a998ec3287bd3ebc1d751fe45ad0a93451bead8618adbc02b1
+        x-checker-data:
+          type: pypi
+          name: scikit-build-core
+          packagetype: bdist_wheel
+    cleanup:
+      - '*'
+  - name: python3-pybind11
+    buildsystem: simple
+    build-commands:
+      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
+        --prefix=${FLATPAK_DEST} "pybind11" --no-build-isolation
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/b3/06/c3a23c9a0263b136c519f033a58d4641e73065fefc7754e9667ec206d992/pybind11-3.0.4-py3-none-any.whl
+        sha256: 961720ee652da51d531b7b2451a6bd2bc042b0106e6d9baa48ecb7d58034ce63
+        x-checker-data:
+          type: pypi
+          name: pybind11
+          packagetype: bdist_wheel
+    cleanup:
+      - '*'

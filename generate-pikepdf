@@ -18,6 +18,11 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
     # Platform issue 'wontfix': https://gitlab.gnome.org/GNOME/gnome-build-meta/-/issues/380
     $PIP_GENERATOR --ignore-installed=lxml lxml
 
-    $PIP_GENERATOR --cleanup=all pybind11
+    $PIP_GENERATOR --cleanup=all nanobind scikit-build-core pybind11 -o python3-pikepdf-build-dependencies
+    # While pikepdf moved on to nanobind, pillow still needs pybind11 to build
+
+    # not an optdep-group I guess
+    # $PIP_GENERATOR --optdep-groups=build-system --build-only pikepdf -o pikepdf-build-system
+
     $PIP_GENERATOR pikepdf -o python3-pikepdf-internal
 )
