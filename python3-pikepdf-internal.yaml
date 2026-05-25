@@ -19,8 +19,8 @@ sources:
       type: pypi
       name: lxml
   - type: file
-    url: https://files.pythonhosted.org/packages/5f/d5/282e048599e3aa0e21b822423e1a8ebfa8499ed1ef986898f4757a32d52c/pikepdf-10.7.1.tar.gz
-    sha256: 0fcaf7dd06a1b11940dabb2648cdaf8413216f2d2e883b3ebd8f6a8ea0893479
+    url: https://files.pythonhosted.org/packages/d3/14/3dc2afd965f0e4a032dbf7581bc88634c1b8717266f6d6067d4576278911/pikepdf-10.7.2.tar.gz
+    sha256: cddbe05a2398b19d99fc24aaab563695d05025a416f02deb4c2ac0a0068e3f65
     x-checker-data:
       type: pypi
       name: pikepdf
@@ -31,8 +31,8 @@ sources:
       type: pypi
       name: pillow
   - type: file
-    url: https://files.pythonhosted.org/packages/33/19/713f33fcd8f7b0aa87c9d068b590dc1e86c51d5e329bf83dd91ee47fe872/wrapt-2.2.0-py3-none-any.whl
-    sha256: 03b77d3ecab6c38e5da7a5709cee6899083d08fc1bcd648b4fa78b346fc66282
+    url: https://files.pythonhosted.org/packages/53/46/29ac9daf11a86c22a8c38cd9236c62928ccae83f7ceb06bd3b0467cf9d05/wrapt-2.2.1-py3-none-any.whl
+    sha256: 3aafea2975caef8ca49400640dde02cc7426e798f24870ed01f490bc3cffd32f
     x-checker-data:
       type: pypi
       name: wrapt
