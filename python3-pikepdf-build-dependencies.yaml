@@ -32,8 +32,8 @@ modules:
           name: pathspec
           packagetype: bdist_wheel
       - type: file
-        url: https://files.pythonhosted.org/packages/41/3d/463f75ff6f1346371883e7c51c0b9ac62b07e0c2f54366f79658cf49db52/scikit_build_core-1.0.1-py3-none-any.whl
-        sha256: 1b3a660e819b6a99908f01d1df3fbcc75ef3aaa4c1bbf7d6c88de11d1ff21393
+        url: https://files.pythonhosted.org/packages/2d/e2/138d376fe4046afd94760f30ab7a684149bbe6300b25701f7f7ab99cd5a4/scikit_build_core-1.0.2-py3-none-any.whl
+        sha256: 847d626591f7fdd0956e146f265f9bb108911fc76a6582d9c5be9c6dcfbc8d3c
         x-checker-data:
           type: pypi
           name: scikit-build-core
