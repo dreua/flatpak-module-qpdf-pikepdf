@@ -6,14 +6,14 @@ build-commands:
     --prefix=${FLATPAK_DEST} "pikepdf" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/05/3b/aab6728cae887456f409b4d75e8a01856e4f04bd510de38052a47768b680/lxml-6.1.1.tar.gz
-    sha256: ba96ae44888e0185281e937633a743ea90d5a196c6000f82565ebb0580012d40
+    url: https://files.pythonhosted.org/packages/ad/a9/970b8fa0ecc4fbf1dfaed0d89bbc1fc1421b25ec26a2038c91e872dc6c8e/lxml-6.1.2.tar.gz
+    sha256: 1055241852f2b02068af4a625a5d32c087db193c12251928af2562ecd2239f18
     x-checker-data:
       type: pypi
       name: lxml
   - type: file
-    url: https://files.pythonhosted.org/packages/81/f4/786a14218d80727e357d935ed94830090a8bc28eb4a7732ed1b4352f0b43/pikepdf-10.11.0.tar.gz
-    sha256: 4bebc59ac74411064e7c97a4036174023e22ccbecd22b78750ab76551eb38988
+    url: https://files.pythonhosted.org/packages/1e/d4/f4383bb3ac90cb322cb340cd4253bfc19f80819a97d61a49077ab3a0581e/pikepdf-10.12.0.tar.gz
+    sha256: cbc790243a333a2c87bb4c1a69e3d7036b4a7f43c7fafc8ec7cee06985b48ae9
     x-checker-data:
       type: pypi
       name: pikepdf
