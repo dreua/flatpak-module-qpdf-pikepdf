@@ -4,8 +4,9 @@ name: Run flatpak external data checker for updates
 
 on:
   schedule:
-    # Daily to keep dependencies up to date
-    - cron: 53 08 * * *
+    # Keep dependencies up to date
+    # run once each month on the second monday
+    - cron: 43 5 8-14 * 1
   workflow_dispatch:
 
 permissions:
