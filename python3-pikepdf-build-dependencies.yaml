@@ -10,8 +10,8 @@ modules:
         --prefix=${FLATPAK_DEST} "nanobind" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/94/17/fba47a85a7b0bfb9ab5a5100e8a26b361b881089c7d8cad9a95f895f1546/nanobind-2.14.0-py3-none-any.whl
-        sha256: a57cd4fe613db78410ca13ba007a3ffaf3125b831d8be46ec7f4351e8cf6e513
+        url: https://files.pythonhosted.org/packages/36/c1/6fd56f7a02a478d54a1a3e6000eccd34b446b1c45cbf0d002fe5d2937126/nanobind-3.1.0-py3-none-any.whl
+        sha256: 96984dbe8154ffb86e653b1b60aaeed6985c710c5e75ad0279eb87943c66292d
         x-checker-data:
           type: pypi
           name: nanobind
@@ -32,8 +32,8 @@ modules:
           name: pathspec
           packagetype: bdist_wheel
       - type: file
-        url: https://files.pythonhosted.org/packages/b7/b0/7ad8fa9aebb0835b2e20afebf1483cbe175d1612fe01e85042ce9ced8755/scikit_build_core-1.0.3-py3-none-any.whl
-        sha256: ae95427b7d3c14a6cf8bbfd4d901f6138ab64c99e20cbe8ea7d75cd26093f085
+        url: https://files.pythonhosted.org/packages/66/bc/e68458dbbe42123bb3b2d35c1412613367e0826fbe0327e109c114a556ff/scikit_build_core-1.1.0-py3-none-any.whl
+        sha256: ef439fc8b352913ef6e76257e3115a7910c9f294a2cf27781b6f571cf6cd0033
         x-checker-data:
           type: pypi
           name: scikit-build-core
