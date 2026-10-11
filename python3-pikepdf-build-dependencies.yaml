@@ -10,8 +10,8 @@ modules:
         --prefix=${FLATPAK_DEST} "nanobind" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/94/17/fba47a85a7b0bfb9ab5a5100e8a26b361b881089c7d8cad9a95f895f1546/nanobind-2.14.0-py3-none-any.whl
-        sha256: a57cd4fe613db78410ca13ba007a3ffaf3125b831d8be46ec7f4351e8cf6e513
+        url: https://files.pythonhosted.org/packages/d8/72/16a606cbea58be568475f450ece121b3fd62cffb390fd0f8eb8b410904f5/nanobind-2.15.0-py3-none-any.whl
+        sha256: 91dae9305c6242cf63ab11a5c41594e234e7a22fd9fcc2c5c4ba80724abc1787
         x-checker-data:
           type: pypi
           name: nanobind
