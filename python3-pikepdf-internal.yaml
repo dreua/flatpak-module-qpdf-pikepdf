@@ -12,14 +12,14 @@ sources:
       type: pypi
       name: lxml
   - type: file
-    url: https://files.pythonhosted.org/packages/1c/0e/6e74dd213537b71c945743a4b3112dbb430896ad68b8a6ad22e4468455d4/pikepdf-10.13.0.post1.tar.gz
-    sha256: 4b73f926ebae81f04bf14527af330bd00bb268be767e0f189f7c4c3e4ad7ae0a
+    url: https://files.pythonhosted.org/packages/b8/c3/8fc5695947a711263e17786c1d913b0cea660a1b174a9e0e944ad037732c/pikepdf-10.17.0.tar.gz
+    sha256: de4ccaae83628e86c1fd473b384c09c6ff1dd35a583a8dacbf61d2aa4bea843b
     x-checker-data:
       type: pypi
       name: pikepdf
   - type: file
-    url: https://files.pythonhosted.org/packages/1c/3d/bb7fca845737cf9d7dbde16ed1843984665ff2e0a518f5db43e77ec540b9/pillow-12.3.0.tar.gz
-    sha256: 3b8182a766685eaa002637e28b4ec8d6b18819a0c71f579bf0dbaa5830297cce
+    url: https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz
+    sha256: cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510
     x-checker-data:
       type: pypi
       name: pillow
